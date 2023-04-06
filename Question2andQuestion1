@@ -1,0 +1,14 @@
+Question 2
+Ans:
+  A)
+    Split the String by using split method with argument ",".then create HashMap and save the as key-value pair.
+    Key will be the column or row name and value will be the value present in the cell.After that take each string split this string with argument ":".
+    that string first value is column or row name and second value is expresion or value present in the cell.After that create set and save the key and value.
+    To seperate the expresion i will check the value in set that and replace that value in hashmap.If i get any error then i will throw the exception.
+    If all the values calculate then the csv file save.
+ 
+ Question 1
+ Ans:
+ Encryption:Encryption will convert file into code so that no one can view the implementation.
+ Login:Everytime user try to use this api first user has to login.
+ Authentication/SpringSecurity:Authentication is used to check the user is valid or not.
